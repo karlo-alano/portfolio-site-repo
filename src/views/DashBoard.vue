@@ -6,11 +6,11 @@
 
         <!-- BIO SECTION -->
         <div class="nameSection md:w-[60%] flex flex-col justify-center items-center md:items-start mt-40 md:mt-0">
-          <h1 class="header md:text-9xl text-6xl font-extrabold text-text-black mb-10 text-center md:text-left">
+          <h1 class="header md:text-9xl text-7xl font-extrabold text-text-black mb-10 text-center md:text-left">
             Heya,<br />
             I'm Karlo!
           </h1>
-          <p class="subHeader text-center md:text-left text-2xl text-[#1a0d03] opacity-90">
+          <p class="subHeader text-justify px-15 md:px-0 md:w-[60%] text-2xl text-[#1a0d03] opacity-90">
             I'm a CS student who loves building web apps and self-hosted infrastructure. I love
             understanding how systems work - from code all the way to the server.
           </p>
@@ -60,12 +60,12 @@
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">FLASK</div>
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">SUPABASE</div>
               </div>
-              <p class="text-[#F5ECD8] text-justify">Itinero is a automated time-constrained itinerary generator for the historical district Intramuros. Built with
+              <p class="text-[#F5ECD8] text-left">Itinero is a automated time-constrained itinerary generator for the historical district Intramuros. Built with
                 pedestrians in mind, it automatically finds the shortest walking route chaining the finished itineraries together. Paired with a user space
                 ecosystem to share and discover itineraries, called Pocket Journals, Itinero offers a space where Intramuros tourists can just enjoy the district
                 without the stress of finding out where to go.</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2!">VIEW THIS PROJECT</button>
+            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
 
           </div>
         </div>
@@ -79,11 +79,11 @@
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">GDSCRIPT</div>
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">BLENDER</div>
               </div>
-              <p class="text-[#F5ECD8] text-justify">The Keeper is a meta-horror game that explores feelings of deception, manipulation, and deceit, especially in times of vulnerability.
+              <p class="text-[#F5ECD8] text-left">The Keeper is a meta-horror game that explores feelings of deception, manipulation, and deceit, especially in times of vulnerability.
                 You play as Nanay Angelina, a dorm keeper who balances chores with complex extrapersonal relationships with the rest of the tenants and her daughter.
                 When everything else goes wrong, do you have what it takes to remain calm, observant, and skeptical?</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2!">VIEW THIS PROJECT</button>
+            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
           </div>
           <div class="left min-h-50 w-full md:w-[60%] bg-[url('@/assets/imgs/thekeeper.png')] bg-cover relative">
             <div class="bg-linear-to-b md:bg-linear-to-l from-black/10 to-text-black absolute h-full w-full"></div>
@@ -102,9 +102,9 @@
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">TYPSCRIPT</div>
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">SUPABASE</div>
               </div>
-              <p class="text-[#F5ECD8] text-justify">Schedify is a task-scheduling and calendar application with built in weather forecasting features.</p>
+              <p class="text-[#F5ECD8] text-left">Schedify is a task-scheduling and calendar application with built in weather forecasting features.</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2!">VIEW THIS PROJECT</button>
+            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
           </div>
         </div>
 
@@ -124,7 +124,7 @@
         <div class="flex flex-col md:flex-row items-stretch justify-center h-full md:h-[70%] w-full gap-10">
 
           <!-- PROFILE PICTURE SECTION -->
-          <div class="shrink bg-white">
+          <div class="shrink bg-white flex justify-center">
             <img
               src="@/assets/imgs/profilePicture.jpeg"
               alt="Karlo"

@@ -56,10 +56,16 @@
   <Transition name="slidedown">
     <div
       v-if="isOpen"
-      class="md:hidden flex flex-row gap-6 px-4 pt-20 bg-transparent w-full transition-all fixed justify-center z-20"
+      class="md:hidden flex flex-wrap flex-row gap-3 px-4 top-25 bg-dark w-full transition-all absolute justify-center z-20"
     >
-      <a href="#about" class="text-xl text-yellow-1 font-monospace" @click="isOpen = false"
-        >About</a
+      <RouterLink
+        to="/Experiments"
+        class="text-xl text-yellow-1 font-monospace"
+        @click="isOpen = false"
+        >Experiments</RouterLink
+      >
+      <RouterLink to="/Guides" class="text-xl text-yellow-1 font-monospace" @click="isOpen = false"
+        >Guides</RouterLink
       >
       <RouterLink
         to="/Projects"
@@ -67,6 +73,10 @@
         @click="isOpen = false"
         >Projects</RouterLink
       >
+      <a href="#about" class="text-xl text-yellow-1 font-monospace" @click="isOpen = false"
+        >About</a
+      >
+
       <a href="#contact" class="text-xl text-yellow-1 font-monospace" @click="isOpen = false"
         >Contact</a
       >
