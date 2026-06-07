@@ -91,18 +91,18 @@
         </div>
 
         <div class="projectContainer flex flex-col md:flex-row min-h-100 bg-text-black border-2 border-orange-1">
-          <div class="left min-h-50 w-full md:w-[60%] bg-[url('@/assets/imgs/itinero.png')] bg-cover relative">
+          <div class="left min-h-50 w-full md:w-[60%] bg-[url('@/assets/imgs/linuxservermanagement.jpg')] bg-cover relative">
             <div class="inset-0 bg-linear-to-b md:bg-linear-to-r from-black/10 to-text-black absolute h-full w-full"></div>
           </div>
           <div class="right flex flex-1 flex-col p-2 md:p-15 justify-between">
             <div>
-              <h1 class="text-3xl text-yellow-1 font-extrabold">Schedify</h1>
+              <h1 class="text-3xl text-yellow-1 font-extrabold">Linux Server Management</h1>
               <div class="flex gap-2 my-2">
-                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">REACT</div>
-                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">TYPSCRIPT</div>
-                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">SUPABASE</div>
+                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">DEBIAN</div>
+                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">BASH</div>
+                <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">NGINX</div>
               </div>
-              <p class="text-[#F5ECD8] text-left">Schedify is a task-scheduling and calendar application with built in weather forecasting features.</p>
+              <p class="text-[#F5ECD8] text-left">Learning Linux server management with a headless Debian installed on my old laptop</p>
             </div>
             <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
           </div>
@@ -124,7 +124,7 @@
         <div class="flex flex-col md:flex-row items-stretch justify-center h-full md:h-[70%] w-full gap-10">
 
           <!-- PROFILE PICTURE SECTION -->
-          <div class="shrink bg-white flex justify-center">
+          <div class="shrink flex justify-center">
             <img
               src="@/assets/imgs/profilePicture.jpeg"
               alt="Karlo"
