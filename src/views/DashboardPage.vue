@@ -29,10 +29,14 @@
             <div class="text-xl font-monospace">this portfolio website</div>
             <div class="divider-s"></div>
             <div class="text-l font-monospace opacity-50">_learning:</div>
-            <div class="text-xl font-monospace">frontend development</div>
+            <div class="text-xl font-monospace">Github-hosted and Self-hosted runners</div>
             <div class="divider-s"></div>
             <div class="text-l font-monospace opacity-50">_last_played_song:</div>
-            <div class="text 2xl font-monospace">{{nowPlaying || "..."}}</div>
+            <div >
+              <h1 class="text-2xl font-monospace">
+                {{nowPlaying || "..."}}
+              </h1>
+            </div>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
     </RouterLink>
 
     <div class="quickLinks hidden md:flex flex-row gap-5">
-      <RouterLink
+      <!-- <RouterLink
         to="/Experiments"
         class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1"
         >Experiments</RouterLink
@@ -20,7 +20,7 @@
         to="/Guides"
         class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1"
         >Guides</RouterLink
-      >
+      > -->
       <RouterLink
         to="/Projects"
         class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1"
