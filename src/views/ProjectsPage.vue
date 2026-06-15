@@ -20,9 +20,9 @@
               that a user can interact with
             </p>
 
-            <div class="w-full h-20 bg-white m-5">
+            <!-- <div class="w-full h-20 bg-white m-5">
               <div></div>
-            </div>
+            </div> -->
           </div>
           <div class="divider-l"></div>
           <div class="projectDetails flex-1">
@@ -106,9 +106,9 @@
               under the torrent of grief, guilt, or maybe perhaps something else?
             </p>
 
-            <div class="w-full h-20 bg-white m-5">
+            <!-- <div class="w-full h-20 bg-white m-5">
               <div></div>
-            </div>
+            </div> -->
           </div>
           <div class="divider-l"></div>
           <div class="projectDetails flex-1">
@@ -151,26 +151,28 @@
               <div>
                 <h1 class="font-monospace font-bold opacity-80">Lessons Learned:</h1>
                 <ul>
-                  > Offloading of asset creation tasks to different team members helped us greatly.
-                  Initially with only one person working on the assets, the asset creation team grew
-                  to three people. Furthermore, once we have learned that using free CC0 assets were
-                  allowed, our progress greatly sped up.
-                </ul>
-                <ul>
-                  > I have learned that Github is very useful in a wide assortment of environments
-                  and could suit any type of work flow. With the team working on their individual
-                  branches, changes could be made without compromising the main branch. There was
-                  one time where I forgot to pull the new changes and immediately worked on my
-                  outdated branch. Upon pushing, I have faced several merge conflicts that I had to
-                  assess one by one, leading to a long and tedious session. It is fair to say that I
-                  always pulled first before working on anything after that.
-                </ul>
-                <ul>
-                  > Streamlining the Git pipeline and designating tasks and modules to my teammates
-                  allowed us to finish our project in time. We established commit guidelines that
-                  followed common practices and shared workload evenly. We assigned each other
-                  dedicated modules to focus and work on, which allowed us to hit our established
-                  timelines.
+                  <li>
+                    > Offloading of asset creation tasks to different team members helped us
+                    greatly. Initially with only one person working on the assets, the asset
+                    creation team grew to three people. Furthermore, once we have learned that using
+                    free CC0 assets were allowed, our progress greatly sped up.
+                  </li>
+                  <li>
+                    > I have learned that Github is very useful in a wide assortment of environments
+                    and could suit any type of work flow. With the team working on their individual
+                    branches, changes could be made without compromising the main branch. There was
+                    one time where I forgot to pull the new changes and immediately worked on my
+                    outdated branch. Upon pushing, I have faced several merge conflicts that I had
+                    to assess one by one, leading to a long and tedious session. It is fair to say
+                    that I always pulled first before working on anything after that.
+                  </li>
+                  <li>
+                    > We were forced to shorten the scope two times. Once we realized that the
+                    original plan had been over ambitious, we decided to shorten the in-game days in
+                    half. Around the time we realized that even this was not enough, we slashed it
+                    again in half - bringing the total amount of days to three high-impact ones
+                    rather than the originally planned 2 whole weeks.
+                  </li>
                 </ul>
               </div>
             </div>
