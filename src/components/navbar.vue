@@ -58,7 +58,7 @@
       v-if="isOpen"
       class="md:hidden flex flex-wrap flex-row gap-3 px-4 top-25 bg-dark w-full transition-all absolute justify-center z-20"
     >
-      <RouterLink
+      <!-- <RouterLink
         to="/Experiments"
         class="text-xl text-yellow-1 font-monospace"
         @click="isOpen = false"
@@ -66,9 +66,9 @@
       >
       <RouterLink to="/Guides" class="text-xl text-yellow-1 font-monospace" @click="isOpen = false"
         >Guides</RouterLink
-      >
+      > -->
       <RouterLink
-        to="/Projects"
+        to="/Projects/#thekeeper"
         class="text-xl text-yellow-1 font-monospace"
         @click="isOpen = false"
         >Projects</RouterLink

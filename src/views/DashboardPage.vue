@@ -69,8 +69,7 @@
                 ecosystem to share and discover itineraries, called Pocket Journals, Itinero offers a space where Intramuros tourists can just enjoy the district
                 without the stress of finding out where to go.</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
-
+            <RouterLink to="/Projects" class="button font-monospace mt-5 md:mt-0 p-2! w-fit" >VIEW THIS PROJECT</RouterLink>
           </div>
         </div>
 
@@ -87,7 +86,7 @@
                 You play as Nanay Angelina, a dorm keeper who balances chores with complex extrapersonal relationships with the rest of the tenants and her daughter.
                 When everything else goes wrong, do you have what it takes to remain calm, observant, and skeptical?</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
+            <RouterLink to="/Projects" class="button font-monospace mt-5 md:mt-0 p-2! w-fit" >VIEW THIS PROJECT</RouterLink>
           </div>
           <div class="left min-h-50 w-full md:w-[60%] bg-[url('@/assets/imgs/thekeeper.png')] bg-cover relative">
             <div class="bg-linear-to-b md:bg-linear-to-l from-black/10 to-text-black absolute h-full w-full"></div>
@@ -108,7 +107,7 @@
               </div>
               <p class="text-[#F5ECD8] text-left">Learning Linux server management with a headless Debian installed on my old laptop</p>
             </div>
-            <button class="button font-monospace mt-5 md:mt-0 p-2! w-fit">VIEW THIS PROJECT</button>
+            <RouterLink to="/Projects" class="button font-monospace mt-5 md:mt-0 p-2! w-fit" >VIEW THIS PROJECT</RouterLink>
           </div>
         </div>
 

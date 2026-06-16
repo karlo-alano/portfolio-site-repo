@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import 'primeicons/primeicons.css';
+@plugin "daisyui";
 
 @theme {
   --color-green-1: #7e988d;
