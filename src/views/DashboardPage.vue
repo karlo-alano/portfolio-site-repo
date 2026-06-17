@@ -24,16 +24,16 @@
         <!-- CURRENTLY SECTION -->
         <div class="currentlySection flex flex-1 flex-col p-5 justify-center">
           <div class="currentlyContainer">
-            <div class="text-l font-monospace opacity-50 mb-5">CURRENTLY...</div>
-            <div class="text-l font-monospace opacity-50">_building:</div>
-            <div class="text-xl font-monospace">this portfolio website</div>
+            <div class="text-l text-text-black font-monospace opacity-50 mb-5">CURRENTLY...</div>
+            <div class="text-l text-text-black font-monospace opacity-50">_building:</div>
+            <div class="text-xl text-text-black font-monospace">this portfolio website</div>
             <div class="divider-s"></div>
-            <div class="text-l font-monospace opacity-50">_learning:</div>
-            <div class="text-xl font-monospace">Github-hosted and Self-hosted runners</div>
+            <div class="text-l font-monospace opacity-50 text-text-black">_learning:</div>
+            <div class="text-xl font-monospace text-text-black">Github-hosted and Self-hosted runners</div>
             <div class="divider-s"></div>
-            <div class="text-l font-monospace opacity-50">_last_played_song:</div>
+            <div class="text-l font-monospace opacity-50 text-text-black">_last_played_song:</div>
             <div >
-              <h1 class="text-2xl font-monospace">
+              <h1 class="text-2xl font-monospace text-text-black">
                 {{nowPlaying || "..."}}
               </h1>
             </div>
