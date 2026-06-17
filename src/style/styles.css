@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+ul, li {
+  @apply text-text-black
+}
+
 .font-monospace {
   font-family: 'Space Mono';
 }
