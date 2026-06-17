@@ -322,6 +322,11 @@
                 href="https://github.com/karlo-alano/portfolio-site-repo"
                 >Github (Portfolio)</a
               >
+              <a
+                class="button font-monospace p-2! text-s md:text-lg"
+                href="https://www.karloalano.site"
+                >Website</a
+              >
             </div>
           </div>
           <div class="divider-l"></div>
