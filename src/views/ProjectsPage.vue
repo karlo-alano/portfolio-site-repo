@@ -88,7 +88,7 @@
               <div class="divider-s"></div>
               <div>
                 <h1 class="font-monospace font-bold opacity-80">Challenges Encountered:</h1>
-                <ul>
+                <ul class="flex flex-col gap-2">
                   <li>
                     > The project heavily uses the Google Maps API for the function of its main
                     itinerary generator. Managing API usage, restricting access, and streamlining API
@@ -111,7 +111,7 @@
               <div class="divider-s"></div>
               <div>
                 <h1 class="font-monospace font-bold opacity-80">Lessons Learned:</h1>
-                <ul>
+                <ul class="flex flex-col gap-2">
                   <li>
                     > In order to reduce API costs, I have decided to implement a JSON cache of store
                     data. This is updated biweekly through a yaml script on Github Actions. This not
@@ -238,7 +238,7 @@
               <div class="divider-s"></div>
               <div>
                 <h1 class="font-monospace font-bold opacity-80">Lessons Learned:</h1>
-                <ul>
+                <ul class="flex flex-col gap-2">
                   <li>
                     > Offloading of asset creation tasks to different team members helped us
                     greatly. Initially with only one person working on the assets, the asset
@@ -378,7 +378,7 @@
               <div class="divider-s"></div>
               <div>
                 <h1 class="font-monospace font-bold opacity-80">Lessons Learned:</h1>
-                <ul>
+                <ul class="flex flex-col gap-2">
                   <li>
                     > Continously learning about linux is important just because of how big the
                     ecosystem is. Even a single service like systemd is enough to keep me company
