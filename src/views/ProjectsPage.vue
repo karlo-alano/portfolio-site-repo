@@ -73,7 +73,7 @@
           <div class="projectDetails flex-1">
             <div class="">
               <div>
-                <h1 class="font-monospace font-bold opacity-80">Tech Stack</h1>
+                <h1 class="font-monospace font-bold opacity-80 text-text-black">Tech Stack</h1>
                 <ul>
                   <li>Vue.js</li>
                   <li>TailwindCSS</li>
@@ -199,7 +199,7 @@
           <div class="projectDetails flex-1">
             <div class="">
               <div>
-                <h1 class="font-monospace font-bold opacity-80">Tech Stack</h1>
+                <h1 class="font-monospace font-bold opacity-80 text-text-black">Tech Stack</h1>
                 <ul>
                   <li>Blender</li>
                   <li>Godot</li>
@@ -333,7 +333,7 @@
           <div class="projectDetails flex-1">
             <div class="">
               <div>
-                <h1 class="font-monospace font-bold opacity-80">Tech Stack</h1>
+                <h1 class="font-monospace font-bold opacity-80 text-text-black">Tech Stack</h1>
                 <ul>
                   <li>Bash</li>
                   <li>Linux</li>
