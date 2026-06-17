@@ -37,7 +37,7 @@ html {
 }
 
 .button {
-  @apply bg-[#ffda93] p-5 border-2 cursor-pointer transition-all ease-in-out;
+  @apply bg-[#ffda93] p-5 border-2 border-black text-text-black cursor-pointer transition-all ease-in-out;
 }
 
 .button:hover {
