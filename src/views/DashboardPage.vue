@@ -142,7 +142,7 @@
               <p class="text-xl text-text-black text-justify md:text-left">I am a 3rd year Computer Science student from Cavite State University. I love to figure out how things really work from bottom to top.
                 I am deeply interested in the backend and deployment side of the internet and I would love to work in the Devops field some day.</p>
               <br></br>
-              <p class="text-xl  text-justify md:text-left">During my down time, I love to play games such as War Thunder, learn about history, play the bass, and write immersive stories.</p>
+              <p class="text-xl text-text-black text-justify md:text-left">During my down time, I love to play games such as War Thunder, learn about history, play the bass, and write immersive stories.</p>
             </div>
 
             <div class="links md:w-full flex gap-6 flex-col md:flex-row justify-between">
