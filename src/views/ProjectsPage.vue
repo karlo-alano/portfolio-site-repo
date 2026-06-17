@@ -5,7 +5,7 @@
 
     <div class="mainProjectContainer">
       <div class="projectContainer p-5">
-        <div id="#itinero" class="text-dark font-bold text-2xl">Itinero</div>
+        <div id="itinero" class="text-dark font-bold text-2xl">Itinero</div>
         <div class="projectContainerSection flex md:flex-row flex-col gap-6">
           <div class="projectAbout md:w-[50%] flex flex-col justify-between gap-3">
             <div>
@@ -141,7 +141,7 @@
       </div>
 
       <div class="projectContainer p-5">
-        <h1 id="#thekeeper" class="text-dark font-bold text-2xl">The Keeper</h1>
+        <h1 id="thekeeper" class="text-dark font-bold text-2xl">The Keeper</h1>
         <div class="projectContainerSection flex flex-col md:flex-row gap-6">
           <div class="projectAbout md:w-[50%] flex flex-col justify-between gap-3">
             <div>
@@ -269,7 +269,7 @@
       </div>
 
       <div class="projectContainer p-5">
-        <h1 id="#linuxhomelab" class="text-dark font-bold text-2xl">Linux Home Server</h1>
+        <h1 id="linuxhomelab" class="text-dark font-bold text-2xl">Linux Home Server</h1>
         <div class="projectContainerSection flex flex-col md:flex-row gap-6">
           <div class="projectAbout md:w-[50%] flex flex-col justify-between gap-3">
             <div>
