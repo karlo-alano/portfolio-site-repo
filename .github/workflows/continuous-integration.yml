@@ -9,7 +9,7 @@ on:
       - '.github/scripts/**'
 
 jobs:
-  scan-gitleaks:
+  gitleaks:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,9 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  scan-trivy:
+  trivy:
     runs-on: ubuntu-latest
-    needs: scan-gitleaks
+    needs: gitleaks
 
     steps:
       - name: Checkout
@@ -42,7 +42,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    needs: scan
+    needs: trivy
 
     steps:
       - name: Checkout code
