@@ -415,3 +415,6 @@
     </div>
   </main>
 </template>
+<script setup>
+console.log('Helo')
+</script>
