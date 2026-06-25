@@ -174,10 +174,11 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import 'dotenv/config';
 
 const nowPlaying = ref("")
 const LASTFM_USER = "qwrz___"
-const LASTFM_API_KEY = "b0539f17fef1f07ddff7e18122bb42e0";
+const LASTFM_API_KEY = process.env.LASTFM_API_KEY;
 
 async function fetchNowPlaying() {
   try {
