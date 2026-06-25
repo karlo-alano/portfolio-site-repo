@@ -415,6 +415,3 @@
     </div>
   </main>
 </template>
-<script setup>
-const API_KEY = 'jkeriupoias8509485935alskdf54145sdfg'
-</script>
