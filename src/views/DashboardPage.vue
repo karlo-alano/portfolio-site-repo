@@ -178,7 +178,7 @@ import 'dotenv/config';
 
 const nowPlaying = ref("")
 const LASTFM_USER = "qwrz___"
-const LASTFM_API_KEY = process.env.LASTFM_API_KEY;
+const LASTFM_API_KEY = import.meta.env.VITE_LASTFM_API;
 
 async function fetchNowPlaying() {
   try {
