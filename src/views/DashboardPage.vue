@@ -172,35 +172,65 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
-import 'dotenv/config';
 
-const nowPlaying = ref("")
-const LASTFM_USER = "qwrz___"
-const LASTFM_API_KEY = import.meta.env.VITE_LASTFM_API;
+const nowPlaying = ref<string>('');
 
-async function fetchNowPlaying() {
+const LASTFM_USER: string = 'qwrz___';
+const LASTFM_API_KEY: string | undefined = import.meta.env.VITE_LASTFM_API;
+
+interface LastFMTrack {
+  name: string;
+  artist: {
+    '#text': string;
+  };
+  '@attr'?: {
+    nowplaying?: string;
+  };
+}
+
+interface LastFMResponse {
+  recenttracks?: {
+    track?: LastFMTrack[];
+  };
+}
+
+async function fetchNowPlaying(): Promise<void> {
   try {
-    const res = await fetch(
-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USER}&api_key=${LASTFM_API_KEY}&format=json&limit=1`,
-    );
+    if (!LASTFM_API_KEY) {
+      nowPlaying.value = 'missing API key';
+      return;
+    }
 
-    const data = await res.json();
+    const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USER}&api_key=${LASTFM_API_KEY}&format=json&limit=1`;
+
+    const res = await fetch(url);
+    const data: LastFMResponse = await res.json();
+
     const track = data.recenttracks?.track?.[0];
+
     if (track) {
-      const isLive = track["@attr"]?.nowplaying === "true";
-      nowPlaying.value = `${track.artist["#text"]} - ${track.name}${isLive ? " ♪" : ""}`;
+      const isLive = track['@attr']?.nowplaying === 'true';
+
+      nowPlaying.value =
+        `${track.artist['#text']} - ${track.name}` + (isLive ? ' ♪' : '');
+    } else {
+      nowPlaying.value = 'nothing right now';
     }
   } catch (e) {
-    nowPlaying.value = "nothing right now"
+    nowPlaying.value = 'nothing right now';
   }
 }
 
-let interval;
+let interval: ReturnType<typeof setInterval> | undefined;
+
 onMounted(() => {
   fetchNowPlaying();
   interval = setInterval(fetchNowPlaying, 30000);
-})
-onUnmounted(() => clearInterval(interval));
+});
+
+onUnmounted(() => {
+  if (interval) clearInterval(interval);
+});
 </script>
